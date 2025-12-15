@@ -189,4 +189,8 @@ For issues and questions:
 - Feature analysis
 - Product extraction
 - Sitemap crawling
+
 '''
+
+This repository contains the original implementation authored by Aylín Altamirano.
+Later internal adaptations are not included.
