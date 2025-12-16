@@ -8,7 +8,7 @@ def setup_api_key():
     
     if not api_key:
         print("\n⚠️ GEMINI_API_KEY not found in environment variables")
-        print("Get your API key first.")
+        print("📝 Get your API key at: https://aistudio.google.com/api-keys")
         print("-" * 60)
         
         try:
@@ -43,16 +43,19 @@ def get_working_model():
     """Find and return a working Gemini model."""
     
     # List of models to try in order of preference
+    # NOTE: Using Flash models for better free tier limits
+    # Flash: 15 RPM, 1M tokens/day (FREE)
+    # Pro: Very limited free tier quotas
     preferred_models = [
-        'gemini-1.5-flash',
-        'gemini-1.5-pro',
-        'gemini-pro',
-        'gemini-1.0-pro'
+        'gemini-2.5-flash',      # Best: Latest flash with great limits
+        'gemini-2.0-flash',      # Backup: Still has good limits
+        'gemini-1.5-flash',      # Fallback: Original flash
+        'gemini-flash-latest',   # Generic flash alias
     ]
     
     try:
         # List all available models
-        print("🔍Checking available models...")
+        print("🔍 Checking available models...")
         available_models = genai.list_models()
         
         # Filter for generative models
@@ -82,17 +85,17 @@ def get_working_model():
         
     except Exception as e:
         print(f"❌ Error accessing Gemini API: {str(e)}")
-        print("\nTroubleshooting steps:")
+        print("\n🔧 Troubleshooting steps:")
         print("1. Verify your API key is correct")
         print("2. Check if your API key has access to Gemini models")
-        print("3. Visit https://makersuite.google.com/app/apikey to manage keys")
+        print("3. Visit https://aistudio.google.com/api-keys to manage keys")
         print("4. Ensure you've enabled the Gemini API in Google Cloud Console")
         raise Exception("Could not find a working Gemini model. Please check your API key and available models.")
 
 def test_model_connection(model):
     """Test if the model can generate content."""
     try:
-        print("\nTesting model connection...")
+        print("\n🧪 Testing model connection...")
         response = model.generate_content("Say 'Hello' if you can hear me.")
         print(f"✅ Model test successful: {response.text[:50]}")
         return True
@@ -108,7 +111,7 @@ def diagnose_api_setup():
     print("=" * 60)
     
     # Step 1: Check API key
-    print("\n1️Checking API Key...")
+    print("\n1️⃣ Checking API Key...")
     api_key = os.getenv('GEMINI_API_KEY')
     if api_key:
         print(f"   ✅ API key found (length: {len(api_key)}, ends with: ...{api_key[-4:]})")
@@ -117,7 +120,7 @@ def diagnose_api_setup():
         return False
     
     # Step 2: Configure API
-    print("\n2️Configuring Gemini API...")
+    print("\n2️⃣ Configuring Gemini API...")
     try:
         genai.configure(api_key=api_key)
         print("   ✅ API configured successfully")
@@ -126,7 +129,7 @@ def diagnose_api_setup():
         return False
     
     # Step 3: List models
-    print("\n3️Listing Available Models...")
+    print("\n3️⃣ Listing Available Models...")
     try:
         models = list(genai.list_models())
         print(f"   ✅ Found {len(models)} total models")
@@ -140,7 +143,7 @@ def diagnose_api_setup():
         return False
     
     # Step 4: Test a model
-    print("\n4️Testing Model Generation...")
+    print("\n4️⃣ Testing Model Generation...")
     try:
         model = get_working_model()
         test_model_connection(model)
