@@ -1,0 +1,114 @@
+{
+  "completed_domains": 7,
+  "total_domains": 7,
+  "results": [
+    {
+      "domain": "https://www.interprose.com",
+      "total_urls": 26,
+      "scanned_case_studies": [],
+      "pricing_info": []
+    },
+    {
+      "domain": "https://www.weservus.com",
+      "total_urls": 15,
+      "scanned_case_studies": [],
+      "pricing_info": []
+    },
+    {
+      "domain": "https://www.dashbilling.com",
+      "total_urls": 19,
+      "scanned_case_studies": [],
+      "pricing_info": []
+    },
+    {
+      "domain": "https://www.lariat.co",
+      "total_urls": 11,
+      "scanned_case_studies": [
+        {
+          "url": "https://www.lariat.co/client-portal",
+          "is_gov": "YES",
+          "summary": "Government Mention: No Topic: A client portal for an agency (implied collections agency) that allows their clients to monitor collection activity, enter new accounts, run reports, view/add notes, and"
+        }
+      ],
+      "pricing_info": []
+    },
+    {
+      "domain": "https://risk.lexisnexis.com",
+      "total_urls": 120,
+      "scanned_case_studies": [
+        {
+          "url": "https://risk.lexisnexis.com/law-enforcement-and-public-safety/success-stories-and-testimonials",
+          "is_gov": "YES",
+          "summary": "Government Mention: Yes Topic: Law enforcement agencies using LexisNexis Risk Solutions to resolve criminal cases, including homicides (active and cold cases) and child abductions, by leveraging data"
+        },
+        {
+          "url": "https://risk.lexisnexis.com/insights-resources/case-study",
+          "is_gov": "YES",
+          "summary": "Government Mention: No Topic: Using data and analytics to manage risk and uncover opportunity (as presented on a case study landing page). Metrics: None mentioned"
+        }
+      ],
+      "pricing_info": [
+        {
+          "url": "https://risk.lexisnexis.com/insights-resources/research/the-true-cost-of-snap-fraud-critical-insights-for-program-integrity",
+          "model": "Pricing Model: Custom quote (implied by \"Speak With An Expert\" for product inquiries)\nStarting Price: Contact for quote\nFree Trial: Not mentioned"
+        }
+      ]
+    },
+    {
+      "domain": "https://getlateral.com",
+      "total_urls": 25,
+      "scanned_case_studies": [],
+      "pricing_info": []
+    },
+    {
+      "domain": "https://www.zuora.com",
+      "total_urls": 33,
+      "scanned_case_studies": [
+        {
+          "url": "https://www.zuora.com/our-customers/case-studies/guardian-news-media/",
+          "is_gov": "NO",
+          "summary": "The provided URL returned a \"502 Bad Gateway\" error, so the content of the case study is not accessible. Therefore, I cannot analyze it."
+        },
+        {
+          "url": "https://www.zuora.com/our-customers/case-studies/siemens-healthineers/",
+          "is_gov": "NO",
+          "summary": "I am unable to access the content at the provided URL (https://www.zuora.com/our-customers/case-studies/siemens-healthineers/) as it is returning a \"502 Bad Gateway\" error. Therefore, I cannot analyze"
+        },
+        {
+          "url": "https://www.zuora.com/our-customers/case-studies/pagerduty/",
+          "is_gov": "NO",
+          "summary": "Unfortunately, I cannot analyze the content of the page because the URL provided returns a \"502 Bad Gateway\" error. The content is unavailable."
+        },
+        {
+          "url": "https://www.zuora.com/our-customers/case-studies/dazn/",
+          "is_gov": "YES",
+          "summary": "Government Mention: No (Content unavailable) Topic: Content unavailable Metrics: None mentioned (Content unavailable)"
+        },
+        {
+          "url": "https://www.zuora.com/our-customers/case-studies/box/",
+          "is_gov": "NO",
+          "summary": "Unfortunately, I cannot analyze the case study from the provided URL. The content displayed is \"502 Bad Gateway nginx\", which indicates that the web server is not accessible or is experiencing an erro"
+        },
+        {
+          "url": "https://www.zuora.com/our-customers/case-studies/ubisoft/",
+          "is_gov": "NO",
+          "summary": "The URL provided returns a \"502 Bad Gateway\" error, which means the content is not accessible. Therefore, I cannot analyze the case study or answer the questions."
+        }
+      ],
+      "pricing_info": [
+        {
+          "url": "https://www.zuora.com/resources/topic/pricing-and-packaging/",
+          "model": "The provided content for the URL \"https://www.zuora.com/resources/topic/pricing-and-packaging/\" is \"502 Bad Gateway\". Due to this error, I am unable to access the page content and extract the requeste"
+        },
+        {
+          "url": "https://www.zuora.com/resource/isg-research-subscription-management-buyers-guide/",
+          "model": "The URL provided resulted in a \"502 Bad Gateway\" error, which means I was unable to access the content of the page. Therefore, I cannot extract the requested pricing information."
+        },
+        {
+          "url": "https://www.zuora.com/solutions/intelligent-pricing-and-packaging/",
+          "model": "The provided content for the URL is \"502 Bad Gateway,\" which indicates an error preventing access to the page's actual content. Therefore, pricing information cannot be extracted.\n\nPricing Model: Not "
+        }
+      ]
+    }
+  ]
+}
