@@ -46,17 +46,29 @@ Once the "Detective" finishes its work, look in the `/output` folder:
 ## Project Structure
 
 market_research_tool/
+
 ├── main.py                    <-- Run this one
+
 ├── diagnose_gemini.py         <-- Run this if the AI breaks
+
 ├── requirements.txt           <-- Libraries required
+
 ├── README.md                  <-- Manual
+
 ├── output/                    <-- (Empty for now, will fill with CSVs)
+
 └── src/                       <-- Origin
+    
     ├── __init__.py            <-- (Empty file)
+   
     ├── analyzer.py            <-- Analysis function
+    
     ├── config.py              <-- Configuration
+   
     ├── rate_limiter.py        <-- Limits key usage
+   
     ├── scraper.py             <-- Scraper
+    
     └── visualizer.py          <-- Graph generatpr
 
 
@@ -84,4 +96,5 @@ MIT License - see LICENSE file for details
 - Feature analysis
 - Product extraction
 - Sitemap crawling
+
 '''
