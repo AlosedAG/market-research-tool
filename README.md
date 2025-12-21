@@ -180,6 +180,7 @@ MIT License - see LICENSE file for details
 
 For issues and questions:
 - Open an issue on GitHub
+- Email: support@yourcompany.com
 
 ## Changelog
 
@@ -188,9 +189,4 @@ For issues and questions:
 - Feature analysis
 - Product extraction
 - Sitemap crawling
-
 '''
-
-This repository contains the original implementation authored by Aylín Altamirano.
-Later internal adaptations are not included.
-

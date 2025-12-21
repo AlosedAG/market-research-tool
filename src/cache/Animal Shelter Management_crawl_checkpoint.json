@@ -1,0 +1,184 @@
+{
+  "completed_domains": 14,
+  "total_domains": 14,
+  "results": [
+    {
+      "domain": "https://www.adopets.com",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "http://www.adoptafriend.us",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://sheltermanager.com",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://animalsfirst.com",
+      "total_urls": 6,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://buzztotherescues.com",
+      "total_urls": 1,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://www.ishelters.com",
+      "total_urls": 13,
+      "case_studies": [],
+      "pricing_pages": [
+        "http://www.ishelters.com/prices.php"
+      ],
+      "government_urls": [],
+      "pricing_info": [
+        {
+          "url": "http://www.ishelters.com/prices.php",
+          "pricing_model": "usage-based",
+          "tiers": "Single tier",
+          "starting_price": "$0",
+          "free_trial": "NO",
+          "contact_for_quote": "NO",
+          "details": "The pricing is based on the number of new animals entered each month. There's also a flat fee option, which includes unlimited animals. The flat fee option is $200 in USD."
+        }
+      ]
+    },
+    {
+      "domain": "https://pawlytics.com",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://www.24pet.com",
+      "total_urls": 57,
+      "case_studies": [
+        "https://www.24pet.com/customer/vet",
+        "https://www.24pet.com/customer/shelter",
+        "https://www.24pet.com/customer/rescue",
+        "https://www.24pet.com/blog/foster-to-adopt-success-stories"
+      ],
+      "pricing_pages": [
+        "https://www.24pet.com/blog/low-cost-spay-neuter"
+      ],
+      "government_urls": [],
+      "scanned_case_studies": [
+        {
+          "url": "https://www.24pet.com/customer/vet",
+          "analysis": "GOVERNMENT: NO\nCLIENT: Veterinary Clinics\nPROBLEM: Helping pet owners navigate pet insurance decisions, retaining clients, and the need for easy microchip registration tools.\nSOLUTION: Partnering with 24Pet by PetPlace to offer ICAR-certified microchips, registration tools, insurance advocacy solutions, and marketing materials.\nRESULTS: Exclusive microchip pricing, revenue-sharing benefits from insurance quotes, improved client retention, and easier promotion of pet insurance.\n"
+        },
+        {
+          "url": "https://www.24pet.com/customer/shelter",
+          "analysis": "GOVERNMENT: YES (Chameleon is noted as popular among municipalities and animal services.)\nCLIENT:\n*   Williamson County Regional Animal Shelter (Georgetown, TX)\n*   Anti-Cruelty Society (Chicago, IL)\n*   Nevada Humane Society (Reno, NV)\nPROBLEM:\n*   Shelters face challenges such as high intake numbers and limited resources.\n*   Need to efficiently manage operations, including intake, medical records, and adoption processes.\n*   Need to reunite lost pets with owners quickly.\n*   Importance of easily accessing pet information.\n\nSOLUTION:\n*   24Petwatch microchips for reliable pet identification and reunification.\n*   PetPoint: Cloud-based management software to simplify operations and streamline processes.\n*   Chameleon: Customizable software on private servers.\n*   24Pet Registry for pet owner information and alerts.\n\nRESULTS:\n*   Increased efficiency in shelter operations.\n*   Enhanced reunification rates of lost pets.\n*   Stronger adopter relationships through targeted email marketing.\n*   Improved customer service and support.\n*   Time savings for shelter staff.\n"
+        },
+        {
+          "url": "https://www.24pet.com/customer/rescue",
+          "analysis": "GOVERNMENT: NO\nCLIENT: Animal Rescue Organizations\nPROBLEM: Managing intakes, communicating with foster networks, providing ongoing animal care without a physical facility.\nSOLUTION: 24Petwatch microchips and Lost Pet Recovery services and 24PetRescue cloud-based software for streamlined rescue management.\nRESULTS: Increased pet visibility for adoption, improved reunification rates, simplified operations through intuitive tools, modernized interactions.\n"
+        },
+        {
+          "url": "https://www.24pet.com/blog/foster-to-adopt-success-stories",
+          "analysis": "GOVERNMENT: NO\nCLIENT: Rose Marie (and implicitly, the animal shelter that fostered her)\nPROBLEM: Rose Marie, a 7-year-old dog with significant health and appearance issues due to a rough life, was struggling to find a permanent home. She was thin, missing hair, had overgrown nails, and bad teeth, making her less appealing to potential adopters.\nSOLUTION: A foster family took Rose Marie in for what was intended to be a two-week period of care. The fosters provided her with TLC, medical attention, and a loving environment.\nRESULTS: Rose Marie thrived in the foster home, forming a bond with the family and their other dog. After four months and no other adoption interest, the fosters decided to adopt her, giving her a permanent home. She improved health and became a valued member of the family, even visiting care facilities.\n"
+        }
+      ],
+      "pricing_info": [
+        {
+          "url": "https://www.24pet.com/blog/low-cost-spay-neuter",
+          "pricing_model": "Not explicitly stated. Varies depending on the clinic setup.",
+          "tiers": "Single tier - low-cost.",
+          "starting_price": "Not explicitly stated.",
+          "free_trial": "NO",
+          "contact_for_quote": "YES",
+          "details": "The article discusses funding strategies for low-cost spay and neuter programs, suggesting methods for setting up a clinic or partnering with existing organizations. Reimbursement plans need to be worked out with partnering clinics."
+        }
+      ]
+    },
+    {
+      "domain": "https://shelterboss.com",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://www.shelterpro.com",
+      "total_urls": 61,
+      "case_studies": [
+        "https://www.shelterpro.com/testimonials/"
+      ],
+      "pricing_pages": [
+        "https://www.shelterpro.com/pricingfoxpro/",
+        "https://www.shelterpro.com/pricing-for-the-portal/"
+      ],
+      "government_urls": [],
+      "scanned_case_studies": [
+        {
+          "url": "https://www.shelterpro.com/testimonials/",
+          "analysis": "Without access to the actual testimonials linked within the provided text, I can only make inferences based on the limited information. Therefore, I will provide a generalized response assuming the testimonials are positive and related to the benefits of using Shelter Pro Software.\n\nGOVERNMENT: Likely YES (Animal Control often falls under municipal government)\nCLIENT: Shelter Pro Software Clients (Specific names not provided)\nPROBLEM: Inefficient or outdated animal services management, difficulty tracking animals, managing licenses, or reporting data.\nSOLUTION: Implementation of Shelter Pro Software for animal control and shelter management.\nRESULTS: Improved efficiency, better animal tracking, streamlined licensing, enhanced reporting capabilities, and overall better management of animal services.\n"
+        }
+      ],
+      "pricing_info": [
+        {
+          "url": "https://www.shelterpro.com/pricingfoxpro/",
+          "pricing_model": "Custom",
+          "tiers": "Single tier",
+          "starting_price": "Contact for pricing",
+          "free_trial": "NO",
+          "contact_for_quote": "YES",
+          "details": "Pricing depends on modules, number of users, data conversion, training, and integration needs. They encourage customers to contact them for a personalized quote to determine the best components for their needs. Credit card payments have a 3% handling charge."
+        },
+        {
+          "url": "https://www.shelterpro.com/pricing-for-the-portal/",
+          "pricing_model": "One-time",
+          "tiers": "Single tier",
+          "starting_price": "$495",
+          "free_trial": "NO",
+          "contact_for_quote": "YES",
+          "details": "Pricing starts at $495, but the final price depends on factors like database platform, modules required, number of users, data conversion, training, and technical support. Credit/Debit card payments have a 3% handling charge."
+        }
+      ]
+    },
+    {
+      "domain": "https://www.shelterbuddy.com",
+      "total_urls": 11,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "http://shelterluv.com",
+      "total_urls": 3,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://petfriend.io",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    },
+    {
+      "domain": "https://petstablished.com",
+      "total_urls": 0,
+      "case_studies": [],
+      "pricing_pages": [],
+      "government_urls": []
+    }
+  ]
+}
