@@ -1,0 +1,27 @@
+REQUIREMENTS_CONTENT = '''
+
+# AI & Core Logic
+google-generativeai==0.8.3
+python-dotenv==1.0.1
+nest-asyncio==1.6.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Logging
+colorlog>=6.8.0
+
+# Optional:log levels (DEBUG, INFO, WARNING)
+LOG_LEVEL=INFO
+
+# Data & Visualization
+pandas==2.2.0
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Scraper & Web Tools
+playwright==1.41.0
+beautifulsoup4==4.12.3
+aiohttp==3.9.3
+urllib3==2.2.0
+'''
