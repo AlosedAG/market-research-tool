@@ -44,20 +44,31 @@ Once the "Detective" finishes its work, look in the `/output` folder:
 - **`_ranking.png`**: A leaderboard of which companies have the most features.
 
 ## Project Structure
-
+```text
 market_research_tool/
-├── main.py                    <-- Run this one
-├── diagnose_gemini.py         <-- Run this if the AI breaks
-├── requirements.txt           <-- Libraries required
-├── README.md                  <-- Manual
-├── output/                    <-- (Empty for now, will fill with CSVs)
-└── src/                       <-- Origin
-    ├── __init__.py            <-- (Empty file)
-    ├── analyzer.py            <-- Analysis function
-    ├── config.py              <-- Configuration
-    ├── rate_limiter.py        <-- Limits key usage
-    ├── scraper.py             <-- Scraper
-    └── visualizer.py          <-- Graph generatpr
+├── main.py
+│   └── Entry point (run this)
+├── diagnose_gemini.py
+│   └── Diagnostic script (use if the AI model fails)
+├── requirements.txt
+│   └── Required Python libraries
+├── README.md
+│   └── Project documentation
+├── output/
+│   └── Generated results (CSV files)
+└── src/
+    ├── __init__.py
+    │   └── Package marker
+    ├── analyzer.py
+    │   └── Analysis logic
+    ├── config.py
+    │   └── Configuration and API keys
+    ├── rate_limiter.py
+    │   └── API usage and rate limiting
+    ├── scraper.py
+    │   └── Website scraping logic
+    └── visualizer.py
+        └── Data visualization and graphs
 
 
 ## License
@@ -84,4 +95,5 @@ MIT License - see LICENSE file for details
 - Feature analysis
 - Product extraction
 - Sitemap crawling
+
 '''
