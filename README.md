@@ -70,6 +70,7 @@ market_research_tool/
     └── visualizer.py
         └── Data visualization and graphs
 
+Compatible Python version (stable): 3.11.0
 
 ## License
 
@@ -97,3 +98,4 @@ MIT License - see LICENSE file for details
 - Sitemap crawling
 
 '''
+
