@@ -230,3 +230,11 @@ if __name__ == "__main__":
     if not os.path.exists("output"):
         os.makedirs("output")
     asyncio.run(main())
+
+    # ---------------------------------------------------------
+    # Output text
+    # ---------------------------------------------------------
+    import sys
+
+    sys.stdout = open("output.txt", "w")
+    logging.info("Output saved to file output.txt")
