@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from urllib.parse import urlparse
 
+#Plot types in: https://matplotlib.org/stable/plot_types/index.html
+
 def clean_url_label(url):
     try:
         domain = urlparse(url).netloc
@@ -52,7 +54,7 @@ def generate_landscape_graphs(df, landscape_name, features_list):
         sns.set_style("whitegrid")
         
         # Create Bar Plot
-        ax = feature_sums.plot(kind='barh', color="#cdc225")
+        ax = feature_sums.plot(kind='barh', color="#7125cd")
         
         plt.title(f"Feature Adoption in {landscape_name} Landscape", fontsize=14, pad=20)
         plt.xlabel("Number of Companies Offering Feature", fontsize=10)

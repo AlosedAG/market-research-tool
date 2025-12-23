@@ -36,8 +36,7 @@ def get_user_inputs():
     
     landscape_name = input("\nLandscape Name (e.g., Drone Autonomy): ") or "Secure File Transfer"
     landscape_desc = input("Description: ") or "Secure file sharing systems"
-    
-    # --- NEW FEATURE CONFIGURATION LOOP ---
+
     print("\n--- Feature Configuration ---")
     print("Define the features you want to verify. Leave 'Feature Name' blank to finish.")
     
